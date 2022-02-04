@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+//----------------Fuentes
+@import "./fonts/typo";
+//----------------Variables
+$casiNegro: #111111;
+$marron: #A37657;
+$cremita: #FFE7C3;
+//----------------Components
+@import "./components/card";
+//----------------Layout
+@import "./layout/header";
+@import "./layout/sideBar";
+@import "./layout/footer";
+//----------------Views
+@import "./Views/index";

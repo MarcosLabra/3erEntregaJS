@@ -1,0 +1,56 @@
+header{
+    height: 12vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    background-color: $casiNegro;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    .btnCategorias{
+        cursor: pointer;
+        margin: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        color: $cremita;
+        font-family: "Roboto", sans-serif;
+    }
+    img {
+        height: 8vh;
+        margin-bottom: 1rem;
+    }
+    button {
+        font-size: 2rem;
+        i {
+        font-size: 3rem;
+        color: $cremita;
+        transition: .5s;
+        &:hover{
+            transform: scale(1.2);
+            }
+        }
+    }
+    div {
+        i{
+        cursor: pointer;
+        font-size: 3rem;
+        color:$cremita;
+        margin: 0 2rem;
+        transition: .5s;
+        &:hover{
+            transform: scale(1.2);
+            }
+        }
+    }
+}
+
+
+
+
+
+
