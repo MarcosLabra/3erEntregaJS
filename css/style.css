@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 34vw;
+  width: 30vw;
   background-color: #FFE7C3;
   box-shadow: 2px, 2px,  #111111;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -91,9 +91,8 @@
         font-size: 1.5rem; }
     .cartItem .itemDescription button {
       cursor: pointer;
-      font-size: 3rem;
+      font-size: 3rem !important;
       padding-right: 1rem;
-      height: 100%;
       background-color: transparent;
       border: none;
       color: #A37657;
