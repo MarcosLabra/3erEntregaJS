@@ -32,13 +32,6 @@ $(".btnCarrito").click(() => {
   $("#carrito").toggle();
 })
 // ----------------------MAIN----------------------------->
-let carrito = [];
-
-if (localStorage.getItem("carrito")) {
-  carrito = JSON.parse(localStorage.getItem("carrito"));
-  renderCarrito();
-}
-
 let tienda = [];
 
 $.ajax({

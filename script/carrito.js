@@ -1,3 +1,4 @@
+//---------------------FUNCIONES-------------------------------------------->
 function agregarAlCarrito(indiceDelArrayProducto){
     const indiceEncontradoCarrito = carrito.findIndex((elemento) => {
       return elemento.id === tienda[indiceDelArrayProducto].id;
@@ -47,4 +48,10 @@ function renderCarrito(){
       $("#contenedorCarrito").empty();
       renderCarrito();
        };
-  
+//----------------------------------MAIN---------------------->
+let carrito = [];
+
+if (localStorage.getItem("carrito")) {
+  carrito = JSON.parse(localStorage.getItem("carrito"));
+  renderCarrito();
+}

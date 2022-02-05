@@ -92,13 +92,15 @@
     .cartItem .itemDescription button {
       cursor: pointer;
       font-size: 3rem !important;
+      padding: 0;
       padding-right: 1rem;
       background-color: transparent;
       border: none;
       color: #A37657;
       transition: .5s; }
       .cartItem .itemDescription button:hover {
-        transform: scale(1.15); }
+        transform: scale(1.15);
+        box-shadow: none; }
 
 .btn {
   cursor: pointer;
@@ -202,6 +204,17 @@ main #sidebar {
 
 main #sidebar.activeCategoria {
   left: 0; }
+
+#modalFinalizarCompra {
+  position: absolute;
+  z-index: 2;
+  top: 13vh;
+  background-color: #FFE7C3;
+  height: 60vh;
+  width: 27vw;
+  border-radius: 15px;
+  box-shadow: 2px, 2px,  #111111;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 
 footer {
   height: 7vh;
