@@ -37,7 +37,7 @@ function renderCarrito(){
                                             </div>
                                         </div>`);
         });
-        const precioTotal = carrito.reduce((precioTotal, carrito) => precioTotal + carrito.precio*carrito.cantidad, 0);
+        precioTotal = carrito.reduce((precioTotal, carrito) => precioTotal + carrito.precio*carrito.cantidad, 0);
         $("#valorTotal").html(`Total: $ ${precioTotal}`)
     
     }
@@ -50,8 +50,14 @@ function renderCarrito(){
        };
 //----------------------------------MAIN---------------------->
 let carrito = [];
+let precioTotal = null;
 
 if (localStorage.getItem("carrito")) {
   carrito = JSON.parse(localStorage.getItem("carrito"));
   renderCarrito();
 }
+
+$("#btnSeguirComprando").click(function(){
+  $("#carrito").empty();
+  renderCarrito();
+})
