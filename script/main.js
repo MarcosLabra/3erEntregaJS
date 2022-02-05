@@ -40,6 +40,15 @@ function filtrarCategoria(id){
     })
   })
 }
+
+//-----------------------BtnCategorias-------------------->
+$(".btnCategorias").click(() => {
+  document.getElementById("sidebar").classList.toggle('activeCategoria')
+})
+//-----------------------BtnCarrito-------------------->
+$(".btnCarrito").click(() => {
+  document.getElementById("carrito").classList.toggle('activeCarrito')
+})
 // ----------------------MAIN----------------------------->
 let tienda = [];
 let carrito = [];

@@ -12,6 +12,8 @@ $marron: #A37657;
 $cremita: #FFE7C3;
 //----------------Components
 @import "./components/card";
+@import "./components/cartItem";
+@import "./components/button";
 //----------------Layout
 @import "./layout/header";
 @import "./layout/sideBar";

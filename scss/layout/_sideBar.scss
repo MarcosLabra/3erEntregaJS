@@ -1,4 +1,4 @@
-::-webkit-scrollbar 
+::-webkit-scrollbar
     {display: none;}
 main{
     #sidebar{
@@ -6,7 +6,7 @@ main{
         padding-top: 12vh;
         width: 200px;
         height: 100%;
-        background-color: #111111e7;
+        background-color: $casiNegro;
         left:-200px;
         transition: all .5s linear;
         z-index: 1;
@@ -40,7 +40,7 @@ main{
             }
         }
     }
-    #sidebar.active{
+    #sidebar.activeCategoria{
         left:0;
     }
 }
