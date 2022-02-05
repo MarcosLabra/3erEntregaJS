@@ -1,7 +1,7 @@
 .mainTienda{
     display: flex;
     .tienda {
-        padding: 12vh 0;
+        padding: 12vh 3rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center !important;
@@ -10,9 +10,13 @@
     }
     #carrito.carrito{
         top:12vh;
+        -webkit-box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
+        -moz-box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
+        box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
         display: none;
         padding-top: 12vh;
         width: 40vw;
+        padding-left: 2rem;
         padding-right: 2rem;
         transition: all .5s;
         #valorTotal{
@@ -22,13 +26,9 @@
         }
         .btn{
             font-size: 1.5rem;
-            padding: .5rem 1rem;
+            width: 100%;
+            margin: 1rem 0 ;
         }
-    }
-    #carrito.activeCarrito {
-        display: flex;
-        flex-direction: column;
-        // align-items: flex-start;
     }
 }
 

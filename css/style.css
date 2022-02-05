@@ -92,6 +92,8 @@
     .cartItem .itemDescription button {
       cursor: pointer;
       font-size: 3rem;
+      padding-right: 1rem;
+      height: 100%;
       background-color: transparent;
       border: none;
       color: #A37657;
@@ -115,27 +117,11 @@
   color: #FFE7C3;
   background-color: #A37657; }
   .btn:hover {
-    transform: translateY(-3px);
+    transform: translateY(-1px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
   .btn:active {
-    transform: translateY(-1px);
+    transform: translateY(1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
-  .btn::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s; }
-  .btn::after {
-    background-color: #fff; }
-  .btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0; }
 
 header {
   height: 12vh;
@@ -253,7 +239,7 @@ footer {
 .mainTienda {
   display: flex; }
   .mainTienda .tienda {
-    padding: 12vh 0;
+    padding: 12vh 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center !important;
@@ -261,9 +247,13 @@ footer {
     width: 100vw; }
   .mainTienda #carrito.carrito {
     top: 12vh;
+    -webkit-box-shadow: -14px 0px 29px -12px rgba(158, 158, 158, 0.4);
+    -moz-box-shadow: -14px 0px 29px -12px rgba(158, 158, 158, 0.4);
+    box-shadow: -14px 0px 29px -12px rgba(158, 158, 158, 0.4);
     display: none;
     padding-top: 12vh;
     width: 40vw;
+    padding-left: 2rem;
     padding-right: 2rem;
     transition: all .5s; }
     .mainTienda #carrito.carrito #valorTotal {
@@ -272,10 +262,8 @@ footer {
       font-family: "Roboto"; }
     .mainTienda #carrito.carrito .btn {
       font-size: 1.5rem;
-      padding: .5rem 1rem; }
-  .mainTienda #carrito.activeCarrito {
-    display: flex;
-    flex-direction: column; }
+      width: 100%;
+      margin: 1rem 0; }
 
 @media (min-width: 768px) {
   .tienda {

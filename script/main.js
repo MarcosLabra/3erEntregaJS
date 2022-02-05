@@ -47,7 +47,7 @@ $(".btnCategorias").click(() => {
 })
 //-----------------------BtnCarrito-------------------->
 $(".btnCarrito").click(() => {
-  document.getElementById("carrito").classList.toggle('activeCarrito')
+  $("#carrito").toggle();
 })
 // ----------------------MAIN----------------------------->
 let tienda = [];
