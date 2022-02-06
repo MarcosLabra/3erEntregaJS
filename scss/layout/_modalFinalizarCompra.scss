@@ -4,12 +4,13 @@
     z-index: 1;
     padding: 3rem;
     margin-top: 1rem;
-    background-color: $cremita;
+    color: $cremita;
+    background-color: $doradito;
     width: 400px;
     border-radius: 15px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     align-items: flex-start;
-    font-family: "Roboto";
+    font-family: $montserrat;
     div.prodFinalizarCompra{
         display: flex;
         flex-direction: row;
@@ -25,12 +26,11 @@
     }
     .formulario{
         width: 100%;
-        background-color: $marron;
+        background-color: $verdeOscuro;
         border-radius: 15px;
         label{
             text-align: center;
             margin-bottom: .5rem;
-            color: $cremita;
         }
     }
     div{
@@ -52,10 +52,10 @@
 }
 .compraTerminada {
     border-radius: 15px;
-    background-color: $marron;
+    background-color: $verdeOscuro;
     margin-top: 1rem;
     color: $cremita;
-    font-family: "Roboto";
+    font-family: $montserrat;
     padding: 1rem;
     text-align: center;
     h1{
@@ -67,7 +67,7 @@
         margin: 2rem;
     }
     .btn{
-        color: $marron;
-        background-color: $cremita;
+        color: $cremita;
+        background-color: $doradito;
     }
 }

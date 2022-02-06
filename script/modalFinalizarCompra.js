@@ -12,9 +12,9 @@ function finalizarCompra(){
                                 <input id="direccion" type="text" placeholder="direccion de entrega">
                             </div>
                         </div>
-                        <hr width="100%" color="#A37657"\>
+                        <hr width="100%" color="#FFE7C3"\>
                         <h3>Total: $${precioTotal}</h3>
-                        <hr width="100%" color="#A37657"\>
+                        <hr width="100%" color="#FFE7C3"\>
                         <button id="realizarPago" class="btn">Realizar pago</button>
                         <button id="seguirComprando" class="btn">Seguir comprando</button>
                         </div>`)
