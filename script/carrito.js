@@ -57,7 +57,4 @@ if (localStorage.getItem("carrito")) {
   renderCarrito();
 }
 
-$("#btnSeguirComprando").click(function(){
-  $("#carrito").empty();
-  renderCarrito();
-})
+

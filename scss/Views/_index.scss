@@ -9,18 +9,18 @@
         width: 100vw;
     }
     #carrito.carrito{
-        top:12vh;
         -webkit-box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
         -moz-box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
         box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
         display: none;
         padding-top: 12vh;
         width: 500px;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding: 12vh 2rem 2rem 2rem;
         transition: all .5s;
+        border-radius: 15px;
         #valorTotal{
             text-align: center;
+            margin: 1rem auto;
             font-size: 2rem;
             font-family: "Roboto";
         }

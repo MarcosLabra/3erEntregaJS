@@ -5,7 +5,7 @@ function filtrarCategoria(id){
   $(`#${id}`).click (() => {
     $.ajax({
       method:"GET",
-      url: `../JSON/${id}.json`
+      url: `"../JSON/${id}.json"`
       ,success: function (respuesta) {
          $("#contenedorProductos").empty();
          tienda = respuesta;
@@ -36,7 +36,7 @@ let tienda = [];
 
 $.ajax({
   method:"GET",
-  url: `../JSON/general.json`
+  url: "../JSON/general.json"
   ,success: function (respuesta) {
     $("#contenedorProductos").empty();
     tienda = respuesta;
