@@ -18,8 +18,6 @@ header{
         align-items: center;
         background-color: transparent;
         border: none;
-        color: $cremita;
-        font-family: "Roboto", sans-serif;
     }
     img {
         height: 8vh;
@@ -41,7 +39,7 @@ header{
         position: relative;
         cursor: pointer;
         font-size: 4rem;
-        color:$cremita;
+        color:$doradito;
         margin: 0 2rem;
         transition: .5s;
             p {
@@ -50,7 +48,7 @@ header{
                 top: 2.5rem;
                 left: 2.5rem;
                 z-index: 3;
-                background-color: $marron;
+                background-color: $verdeOscuro;
                 padding: .3rem .8rem;
                 border-radius: 50%;
                 color: $cremita;

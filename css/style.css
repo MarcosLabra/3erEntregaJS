@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +10,8 @@
   src: url(../font/DolceVita.ttf); }
 
 @font-face {
-  font-family: Roboto;
-  src: url(../font/Roboto-Regular.ttf); }
+  font-family: Glassure;
+  src: url(../font/Glassure); }
 
 .card {
   font-family: 'Roboto', sans-serif;
@@ -20,7 +21,7 @@
   align-items: center;
   border-radius: 10px;
   width: 30vw;
-  background-color: #FFE7C3;
+  background-color: #a3a261;
   box-shadow: 2px, 2px,  #111111;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   margin: 2rem; }
@@ -32,7 +33,7 @@
     font-size: 1.5rem;
     padding: .5rem;
     color: blanchedalmond;
-    background-color: #111111;
+    background-color: #252525;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -44,7 +45,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     padding-top: 1rem;
-    color: #111111; }
+    color: #252525; }
 
 @media (min-width: 768px) {
   .card {
@@ -60,13 +61,14 @@
 
 .cartItem {
   display: flex;
-  background-color: #FFE7C3;
+  background-color: #a3a261;
   border-radius: 10px;
   margin: 1rem;
   justify-content: space-between;
   align-items: center;
   box-shadow: 3px 3px 3px #11111134;
-  font-family: "Roboto"; }
+  font-family: "Montserrat", sans-serif;
+  color: white; }
   .cartItem img {
     height: 12vh; }
   .cartItem .itemDescription {
@@ -87,7 +89,7 @@
         font-size: 1.5rem;
         margin: 0; }
       .cartItem .itemDescription div h4 {
-        border-top: 1px solid #A37657;
+        border-top: 1px solid white;
         font-size: 1.5rem; }
     .cartItem .itemDescription button {
       cursor: pointer;
@@ -96,7 +98,7 @@
       padding-right: 1rem;
       background-color: transparent;
       border: none;
-      color: #A37657;
+      color: #6c6b4c;
       transition: .5s; }
       .cartItem .itemDescription button:hover {
         transform: scale(1.15);
@@ -114,9 +116,10 @@
   border-radius: 6em;
   transition: all .2s;
   border: none;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #FFE7C3;
-  background-color: #A37657; }
+  color: white;
+  background-color: #6c6b4c; }
   .btn:hover {
     transform: translateY(-1px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
@@ -130,7 +133,7 @@ header {
   width: 100vw;
   position: fixed;
   z-index: 2;
-  background-color: #111111;
+  background-color: #252525;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -143,9 +146,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    border: none;
-    color: #FFE7C3;
-    font-family: "Roboto", sans-serif; }
+    border: none; }
   header img {
     height: 8vh;
     margin-bottom: 1rem; }
@@ -161,7 +162,7 @@ header {
     position: relative;
     cursor: pointer;
     font-size: 4rem;
-    color: #FFE7C3;
+    color: #a3a261;
     margin: 0 2rem;
     transition: .5s; }
     header div i p {
@@ -170,7 +171,7 @@ header {
       top: 2.5rem;
       left: 2.5rem;
       z-index: 3;
-      background-color: #A37657;
+      background-color: #6c6b4c;
       padding: .3rem .8rem;
       border-radius: 50%;
       color: #FFE7C3; }
@@ -181,6 +182,9 @@ header {
   display: none; }
 
 main #sidebar {
+  -webkit-box-shadow: 14px 0px 29px -12px black;
+  -moz-box-shadow: 14px 0px 29px -12px black;
+  box-shadow: 14px 0px 29px -12px black;
   position: fixed;
   padding-top: 12vh;
   width: 200px;
@@ -190,23 +194,26 @@ main #sidebar {
   transition: all .5s linear;
   z-index: 1;
   overflow-y: scroll;
-  padding-bottom: 10vh;
-  font-family: "roboto"; }
+  padding-bottom: 10vh; }
   main #sidebar ul h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 15px 0;
     color: #FFE7C3;
-    text-align: center; }
+    text-align: center;
+    font-family: "glassure";
+    font-weight: 50;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px 2px #a3a261; }
   main #sidebar ul li {
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 1.5rem;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #FFE7C3;
     text-align: center;
-    border-bottom: 1px solid #FFE7C3;
+    border-bottom: 1px solid #a3a261;
     padding: 5px 0px;
     margin: 1rem;
     list-style: none;
@@ -283,7 +290,7 @@ footer {
   position: fixed;
   bottom: 0;
   z-index: 2;
-  background-color: #111111; }
+  background-color: #252525; }
   footer ul {
     display: flex;
     list-style: none;
@@ -294,7 +301,7 @@ footer {
   footer li {
     margin: 15px 10px; }
     footer li i {
-      color: wheat;
+      color: #FFE7C3;
       font-size: 3rem;
       transition: .5s; }
       footer li i:hover {
@@ -303,14 +310,16 @@ footer {
     font-family: sans-serif;
     font-size: 1rem;
     flex: 1;
-    color: #7B7777; }
+    color: #756b6b; }
     footer .footerCopy p {
       font-size: 1.5rem;
       font-family: "DolceVita";
-      color: #A37657; }
+      color: #a3a261; }
 
 .mainTienda {
-  display: flex; }
+  display: flex;
+  background-image: url(../images/fondo_1920.jpg);
+  background-attachment: fixed; }
   .mainTienda .tienda {
     padding: 12vh 3rem;
     display: flex;
@@ -319,9 +328,10 @@ footer {
     align-items: flex-start;
     width: 100vw; }
   .mainTienda #carrito.carrito {
-    -webkit-box-shadow: -14px 0px 29px -12px rgba(158, 158, 158, 0.4);
-    -moz-box-shadow: -14px 0px 29px -12px rgba(158, 158, 158, 0.4);
-    box-shadow: -14px 0px 29px -12px rgba(158, 158, 158, 0.4);
+    background-color: #111111;
+    -webkit-box-shadow: -14px 0px 29px -12px black;
+    -moz-box-shadow: -14px 0px 29px -12px black;
+    box-shadow: -14px 0px 29px -12px black;
     display: none;
     padding-top: 12vh;
     width: 500px;
@@ -329,10 +339,11 @@ footer {
     transition: all .5s;
     border-radius: 15px; }
     .mainTienda #carrito.carrito #valorTotal {
+      color: #FFE7C3;
       text-align: center;
       margin: 1rem auto;
       font-size: 2rem;
-      font-family: "Roboto"; }
+      font-family: "Montserrat", sans-serif; }
     .mainTienda #carrito.carrito .btn {
       font-size: 1.5rem;
       width: 100%;

@@ -1,5 +1,7 @@
 .mainTienda{
     display: flex;
+    background-image: url(../images/fondo_1920.jpg);
+    background-attachment: fixed;
     .tienda {
         padding: 12vh 3rem;
         display: flex;
@@ -9,9 +11,10 @@
         width: 100vw;
     }
     #carrito.carrito{
-        -webkit-box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
-        -moz-box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
-        box-shadow: -14px 0px 29px -12px rgba(158,158,158,0.40);
+        background-color: #111111;
+        -webkit-box-shadow: -14px 0px 29px -12px rgb(0, 0, 0);
+        -moz-box-shadow: -14px 0px 29px -12px rgb(0, 0, 0);
+        box-shadow: -14px 0px 29px -12px rgb(0, 0, 0);
         display: none;
         padding-top: 12vh;
         width: 500px;
@@ -19,10 +22,11 @@
         transition: all .5s;
         border-radius: 15px;
         #valorTotal{
+            color: $cremita;
             text-align: center;
             margin: 1rem auto;
             font-size: 2rem;
-            font-family: "Roboto";
+            font-family: $montserrat;
         }
         .btn{
             font-size: 1.5rem;
