@@ -23,7 +23,7 @@
   width: 30vw;
   background-color: #a3a261;
   box-shadow: 2px, 2px,  #111111;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.911);
   margin: 2rem; }
   .card img {
     width: 100%; }
