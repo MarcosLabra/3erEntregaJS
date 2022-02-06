@@ -55,16 +55,3 @@ $.ajax({
 filtrarCategoria("nostril");
 filtrarCategoria("argollitas");
 
-
-$("#vaciarCarrito").click(function vaciarCarrito(){
-                              localStorage.removeItem("carrito");
-                              carrito = [];
-                            $("#valorTotal").html(`<h3 id="valorTotal">Total: $0</h3>`)
-                            $("#artCart").html(carrito.length)
-                            $("#contenedorCarrito").empty()});
-
-
-
-
-
-

@@ -259,6 +259,24 @@ main #sidebar.activeCategoria {
   #modalFinalizarCompra .btn {
     margin-top: 2rem !important; }
 
+.compraTerminada {
+  border-radius: 15px;
+  background-color: #A37657;
+  margin-top: 1rem;
+  color: #FFE7C3;
+  font-family: "Roboto";
+  padding: 1rem;
+  text-align: center; }
+  .compraTerminada h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+  .compraTerminada p {
+    font-size: 1.5rem;
+    margin: 2rem; }
+  .compraTerminada .btn {
+    color: #A37657;
+    background-color: #FFE7C3; }
+
 footer {
   height: 7vh;
   width: 100vw;
