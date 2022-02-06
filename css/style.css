@@ -125,6 +125,7 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 
 header {
+  padding: 0 1rem;
   height: 12vh;
   width: 100vw;
   position: fixed;
@@ -157,11 +158,22 @@ header {
       header button i:hover {
         transform: scale(1.2); }
   header div i {
+    position: relative;
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #FFE7C3;
     margin: 0 2rem;
     transition: .5s; }
+    header div i p {
+      position: absolute;
+      font-size: 2rem;
+      top: 2.5rem;
+      left: 2.5rem;
+      z-index: 3;
+      background-color: #A37657;
+      padding: .3rem .8rem;
+      border-radius: 50%;
+      color: #FFE7C3; }
     header div i:hover {
       transform: scale(1.2); }
 

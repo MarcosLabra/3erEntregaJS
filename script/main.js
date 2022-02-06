@@ -36,8 +36,8 @@ let tienda = [];
 
 $.ajax({
   method:"GET",
-  url: "../JSON/general.json"
-  ,success: function (respuesta) {
+  url: "../JSON/general.json",
+  success: function (respuesta) {
     $("#contenedorProductos").empty();
     tienda = respuesta;
    tienda.forEach((producto, indice) => {
@@ -60,6 +60,7 @@ $("#vaciarCarrito").click(function vaciarCarrito(){
                               localStorage.removeItem("carrito");
                               carrito = [];
                             $("#valorTotal").html(`<h3 id="valorTotal">Total: $0</h3>`)
+                            $("#artCart").html(carrito.length)
                             $("#contenedorCarrito").empty()});
 
 

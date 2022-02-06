@@ -39,15 +39,15 @@ function renderCarrito(){
         });
         precioTotal = carrito.reduce((precioTotal, carrito) => precioTotal + carrito.precio*carrito.cantidad, 0);
         $("#valorTotal").html(`Total: $ ${precioTotal}`)
-    
+        $("#artCart").html(carrito.length)
     }
-  
     function removeProduct(indice){
       carrito.splice(indice, 1);
       actualizarStorage(carrito);
       $("#contenedorCarrito").empty();
       renderCarrito();
        };
+    
 //----------------------------------MAIN---------------------->
 let carrito = [];
 let precioTotal = null;
@@ -56,5 +56,13 @@ if (localStorage.getItem("carrito")) {
   carrito = JSON.parse(localStorage.getItem("carrito"));
   renderCarrito();
 }
+
+$("#vaciarCarrito").click(
+  function vaciarCarrito(){
+  localStorage.removeItem("carrito");
+  carrito = [];
+  $("#valorTotal").html(`<h3 id="valorTotal">Total: $0</h3>`)
+  $("#artCart").html(carrito.length)
+  $("#contenedorCarrito").empty()});
 
 
