@@ -18,6 +18,7 @@ function finalizarCompra(){
                         <button id="realizarPago" class="btn">Realizar pago</button>
                         <button id="seguirComprando" class="btn">Seguir comprando</button>
                         </div>`)
+
     for (let i = 0; i < carrito.length; i++) {
         $("#modalFinalizarCompra").prepend(`
             <div class="prodFinalizarCompra">
