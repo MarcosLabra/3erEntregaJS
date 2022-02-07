@@ -1,0 +1,81 @@
+[{
+    "id": "46",
+    "nombre": "Industrial con 10 strass",
+    "precio": "1100",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial con 10 strass.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "47",
+    "nombre": "Industrial con piedra turquesa",
+    "precio": "850",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial con piedra turquesa.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "48",
+    "nombre": "Industrial con Strass",
+    "precio": "800",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial con Strass.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "49",
+    "nombre": "Industrial Flecha",
+    "precio": "750",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial Flecha.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "50",
+    "nombre": "Industrial Flor Op. Aguamarina",
+    "precio": "950",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial Flor Opalo Aguamarina.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "51",
+    "nombre": "Industrial Gold Arrow",
+    "precio": "1000",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial Gold Arrow.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "52",
+    "nombre": "Industrial Llave",
+    "precio": "1000",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial Llave.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "53",
+    "nombre": "Industrial Opal White Stone",
+    "precio": "900",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial Opal White Stone.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "54",
+    "nombre": "Industrial Opalo Nieve",
+    "precio": "750",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial Opalo Nieve.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "55",
+    "nombre": "Industrial Tridente",
+    "precio": "1500",
+    "imagen": "./images/TiendaProductos/Industrial/Industrial Tridente.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+}
+]

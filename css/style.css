@@ -144,14 +144,31 @@ header {
     cursor: pointer;
     margin: 0 2rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: transparent;
     border: none; }
-  header img {
-    height: 8vh;
-    margin-bottom: 1rem; }
+    header .btnCategorias h3 {
+      display: none;
+      padding-left: 1rem;
+      font-size: 2.5rem;
+      color: #FFE7C3;
+      text-align: center;
+      font-family: "glassure";
+      font-weight: 50;
+      letter-spacing: 7px;
+      text-shadow: 1px 1px 2px #a3a261; }
+  header .logo {
+    bottom: 1vh;
+    position: absolute;
+    width: 97vw;
+    display: flex;
+    justify-content: center; }
+    header .logo img {
+      position: absolute;
+      height: 8vh;
+      width: auto; }
   header button {
     font-size: 2rem; }
     header button i {
@@ -180,6 +197,10 @@ header {
     header div i:hover {
       transform: scale(1.2); }
 
+@media (min-width: 768px) {
+  header .btnCategorias h3 {
+    display: block; } }
+
 ::-webkit-scrollbar {
   display: none; }
 
@@ -197,15 +218,6 @@ main #sidebar {
   z-index: 1;
   overflow-y: scroll;
   padding-bottom: 10vh; }
-  main #sidebar ul h3 {
-    font-size: 3rem;
-    padding: 15px 0;
-    color: #FFE7C3;
-    text-align: center;
-    font-family: "glassure";
-    font-weight: 50;
-    letter-spacing: 7px;
-    text-shadow: 1px 1px 2px #a3a261; }
   main #sidebar ul li {
     cursor: pointer;
     display: flex;
@@ -342,7 +354,7 @@ footer {
     display: none;
     padding-top: 12vh;
     width: 500px;
-    padding: 12vh 2rem 2rem 2rem;
+    padding: 12vh 2rem 8vh 2rem;
     transition: all .5s;
     border-radius: 15px; }
     .mainTienda #carrito.carrito #valorTotal {

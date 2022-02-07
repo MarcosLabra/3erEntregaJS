@@ -28,6 +28,11 @@ function finalizarCompra(){
 
     $("#realizarPago").click(()=>{
         $("#carrito").empty();
+        window.scrollTo( {
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        } );
         $("#carrito").append(`
                         <div class="compraTerminada">
                         <h1>gracias por su compra</h1>

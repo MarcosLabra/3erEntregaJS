@@ -13,15 +13,34 @@ header{
         cursor: pointer;
         margin: 0 2rem;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
         background-color: transparent;
         border: none;
+        h3{
+            display: none;
+            padding-left: 1rem;
+            font-size: 2.5rem;
+            color: $cremita;
+            text-align: center;
+            font-family: $glassure;
+            font-weight: 50;
+            letter-spacing: 7px;
+            text-shadow: 1px 1px 2px $doradito;
+        }
     }
-    img {
-        height: 8vh;
-        margin-bottom: 1rem;
+    .logo{
+        bottom:1vh;
+        position: absolute;
+        width: 97vw;
+        display: flex;
+        justify-content: center;
+        img {
+            position: absolute;
+            height: 8vh;
+            width: auto;
+        }
     }
     button {
         font-size: 2rem;
@@ -60,7 +79,17 @@ header{
     }
 }
 
+//--------------------------MEDIA-QUERIES
 
+@media (min-width: 768px){
+    header{
+        .btnCategorias{
+            h3{
+                display: block;
+            }
+        }
+    }
+}
 
 
 

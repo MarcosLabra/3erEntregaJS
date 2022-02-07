@@ -70,4 +70,9 @@ filtrarCategoria("general");
 filtrarCategoria("nostril");
 filtrarCategoria("argollitas");
 filtrarCategoria("dermal");
+filtrarCategoria("industrial");
+filtrarCategoria("nipple");
+filtrarCategoria("ombligo");
+filtrarCategoria("labret");
+
 

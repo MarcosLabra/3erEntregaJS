@@ -1,0 +1,81 @@
+[{
+    "id": "76",
+    "nombre": "Flor Cristales Blancos",
+    "precio": "950",
+    "imagen": "./images/TiendaProductos/Labret/Flor Cristales Blancos - Titanio.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "77",
+    "nombre": "Flor Opalo Azules",
+    "precio": "1000",
+    "imagen": "./images/TiendaProductos/Labret/Flor Opalo Azules.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "78",
+    "nombre": "Helix Engarzado Corazoncito",
+    "precio": "1000",
+    "imagen": "./images/TiendaProductos/Labret/Helix Engarzado Corazoncito.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "79",
+    "nombre": "Helix Mosca",
+    "precio": "900",
+    "imagen": "./images/TiendaProductos/Labret/Helix Mosca.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "80",
+    "nombre": "Labret Huellita Cristales",
+    "precio": "750",
+    "imagen": "./images/TiendaProductos/Labret/Labret Huellita Cristales.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "81",
+    "nombre": "Labret Luna",
+    "precio": "1500",
+    "imagen": "./images/TiendaProductos/Labret/Labret Luna.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "82",
+    "nombre": "Labret Piedra Lunar",
+    "precio": "800",
+    "imagen": "./images/TiendaProductos/Labret/Labret Piedra Lunar.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "83",
+    "nombre": "Labret",
+    "precio": "500",
+    "imagen": "./images/TiendaProductos/Labret/Labret.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "84",
+    "nombre": "Punisher Ring Negro",
+    "precio": "750",
+    "imagen": "./images/TiendaProductos/Labret/Punisher Ring Negro.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+},
+{
+    "id": "85",
+    "nombre": "Trepador Opalos",
+    "precio": "800",
+    "imagen": "./images/TiendaProductos/Labret/Trepador Opalos.jpg",
+    "cantidad": "0",
+    "material":"Acero"
+}
+]
