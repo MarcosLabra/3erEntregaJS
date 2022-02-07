@@ -25,15 +25,16 @@ function finalizarCompra(){
                 <p>${carrito[i].cantidad}<span>x</span>${carrito[i].nombre}</p>
             </div>`)
     }
-    const direccion = "Calle falsa 123"
-    const email = "mlabra.dev@gmail.com"
+
     $("#realizarPago").click(()=>{
         $("#carrito").empty();
         $("#carrito").append(`
                         <div class="compraTerminada">
                         <h1>gracias por su compra</h1>
-                        <p>Su compra sera en enviada a ${direccion}</p>
-                        <p>La factura fue enviada a ${email}</p>
+                        <p>Su compra sera en enviada a </p>
+                        <span>calle falsa 123</span>
+                        <p>La factura fue enviada a </p>
+                        <span>mail@mail.com</span>
                         <button id="volverAComprar" class="btn">Seguir comprando</button>
                         </div>`)
                         $("#volverAComprar").click(()=>{

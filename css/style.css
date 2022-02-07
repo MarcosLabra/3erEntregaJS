@@ -38,6 +38,8 @@
     justify-content: center;
     text-align: center;
     align-items: center; }
+  .card .titanio {
+    background-color: #756b6b; }
   .card p {
     font-size: 1.5rem;
     padding-top: 1rem; }
@@ -279,7 +281,10 @@ main #sidebar.activeCategoria {
     margin-bottom: 2rem; }
   .compraTerminada p {
     font-size: 1.5rem;
-    margin: 2rem; }
+    margin: 1rem; }
+  .compraTerminada span {
+    font-size: 1.5rem;
+    font-weight: bold; }
   .compraTerminada .btn {
     color: #FFE7C3;
     background-color: #a3a261; }
@@ -319,7 +324,9 @@ footer {
 .mainTienda {
   display: flex;
   background-image: url(../images/fondo_1920.jpg);
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  min-height: 100vh;
+  align-items: flex-start; }
   .mainTienda .tienda {
     padding: 12vh 3rem;
     display: flex;

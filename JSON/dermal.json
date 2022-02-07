@@ -1,0 +1,113 @@
+[{
+    "id": "33",
+    "nombre": "Dermal Top - Flor Violeta con Opalos",
+    "precio": "400",
+    "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Flor Violeta con Opalos.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "34",
+    "nombre": "Dermal Top - Opalo Azul",
+    "precio": "500",
+    "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Opalo Azul.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "35",
+    "nombre": "Dermal Top - Opalo Blanco",
+    "precio": "750",
+    "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Opalo Blanco.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "36",
+    "nombre": "Dermal Top - Opalo Lila",
+    "precio": "800",
+    "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Opalo Lila.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "37",
+    "nombre": "Dermal Top - Opalo Rosa",
+    "precio": "750",
+    "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Opalo Rosa.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "38",
+    "nombre": "Dermal Top Huellita Opalos",
+    "precio": "750",
+    "imagen": "./images/TiendaProductos/Dermal/Dermal Top Huellita Opalos.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "38",
+    "nombre": "Dermal Top Luna",
+    "precio": "1000",
+    "imagen": "./images/TiendaProductos/Dermal/Dermal Top Luna.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "39",
+    "nombre": "Micro Florcitas",
+    "precio": "1000",
+    "imagen": "./images/TiendaProductos/Dermal/Micro Florcitas.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "40",
+    "nombre": "Microdermal - Cristal Blanco",
+    "precio": "500",
+    "imagen": "./images/TiendaProductos/Dermal/Microdermal - Cristal Blanco.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "41",
+    "nombre": "Microdermal – Opal Stone Verde",
+    "precio": "750",
+    "imagen": "./images/TiendaProductos/Dermal/Microdermal – Opal Stone Verde.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "42",
+    "nombre": "Microdermal - Rayo",
+    "precio": "1500",
+    "imagen": "./images/TiendaProductos/Dermal/Microdermal - Rayo.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "43",
+    "nombre": "Microdermal Agatha Stone",
+    "precio": "1500",
+    "imagen": "./images/TiendaProductos/Dermal/Microdermal Agatha Stone.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "44",
+    "nombre": "Microdermal Huella Azul",
+    "precio": "1500",
+    "imagen": "./images/TiendaProductos/Dermal/Microdermal Huella Azul.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+},
+{
+    "id": "45",
+    "nombre": "Microdermal Huella Rosa",
+    "precio": "1500",
+    "imagen": "./images/TiendaProductos/Dermal/Microdermal Huella Rosa.jpg",
+    "cantidad": "0",
+    "material":"Titanio"
+}
+]

@@ -2,6 +2,8 @@
     display: flex;
     background-image: url(../images/fondo_1920.jpg);
     background-attachment: fixed;
+    min-height: 100vh;
+    align-items: flex-start;
     .tienda {
         padding: 12vh 3rem;
         display: flex;
