@@ -18,7 +18,6 @@ function finalizarCompra(){
                         <button id="realizarPago" class="btn">Realizar pago</button>
                         <button id="seguirComprando" class="btn">Seguir comprando</button>
                         </div>`)
-
     for (let i = 0; i < carrito.length; i++) {
         $("#modalFinalizarCompra").prepend(`
             <div class="prodFinalizarCompra">
@@ -26,21 +25,24 @@ function finalizarCompra(){
                 <p>${carrito[i].cantidad}<span>x</span>${carrito[i].nombre}</p>
             </div>`)
     }
-
+   
     $("#realizarPago").click(()=>{
+        let email = document.getElementById("email").value
+        let direccion = document.getElementById("direccion").value
         $("#carrito").empty();
         window.scrollTo( {
             top: 0,
             left: 0,
             behavior: 'smooth'
         } );
+
         $("#carrito").append(`
                         <div class="compraTerminada">
                         <h1>gracias por su compra</h1>
                         <p>Su compra sera en enviada a </p>
-                        <span>calle falsa 123</span>
+                        <span>${direccion}</span>
                         <p>La factura fue enviada a </p>
-                        <span>mail@mail.com</span>
+                        <span>${email}</span>
                         <button id="volverAComprar" class="btn">Seguir comprando</button>
                         </div>`)
                         $("#volverAComprar").click(()=>{
