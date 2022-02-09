@@ -34,10 +34,8 @@ main{
                 height: 7vh;
             }
             &:hover {
-                transform: translateY(-1px);
-                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
                 color: white;
-                border-bottom: 1px solid white;
+                background-color: $doradito ;
             }
             &:active {
                 transform: translateY(1px);

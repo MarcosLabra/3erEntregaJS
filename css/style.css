@@ -236,10 +236,8 @@ main #sidebar {
     main #sidebar ul li img {
       height: 7vh; }
     main #sidebar ul li:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
       color: white;
-      border-bottom: 1px solid white; }
+      background-color: #a3a261; }
     main #sidebar ul li:active {
       transform: translateY(1px);
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
