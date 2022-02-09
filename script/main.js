@@ -44,8 +44,6 @@ $(".btnCarrito").click(() => {
 } );
 })
 // ----------------------MAIN----------------------------->
-let tienda = [];
-
 $.ajax({
   method:"GET",
   url: "../JSON/general.json",
@@ -71,13 +69,9 @@ $.ajax({
   }
 })
 
-filtrarCategoria("general");
-filtrarCategoria("nostril");
-filtrarCategoria("argollitas");
-filtrarCategoria("dermal");
-filtrarCategoria("industrial");
-filtrarCategoria("nipple");
-filtrarCategoria("ombligo");
-filtrarCategoria("labret");
-
-
+let tienda = [];
+const categorias = ["general", "nostril", "argollitas", "dermal", "industrial", "nipple", "ombligo","labret"]
+for (let i = 0; i < categorias.length; i++) {
+  filtrarCategoria(categorias[i]);
+  
+}

@@ -334,11 +334,37 @@ footer {
       color: #a3a261; }
 
 .mainTienda {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
   display: flex;
   background-image: url(../images/fondo_1920.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   align-items: flex-start; }
+  .mainTienda .carritoVacio {
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    width: 30vw;
+    height: 20vh;
+    top: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #252525;
+    color: #FFE7C3;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem; }
+    .mainTienda .carritoVacio button {
+      font-family: "Montserrat", sans-serif;
+      margin-top: 3rem;
+      font-size: 1rem;
+      padding: 1rem; }
   .mainTienda .tienda {
     padding: 12vh 3rem;
     display: flex;

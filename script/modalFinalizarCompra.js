@@ -1,6 +1,8 @@
 function finalizarCompra(){
-    $("#carrito").empty();
-    $("#carrito").append(`
+
+    if(localStorage.getItem("carrito")){
+        $("#carrito").empty();
+        $("#carrito").append(`
                         <div id="modalFinalizarCompra" >
                         <div class="formulario">
                             <div>
@@ -18,38 +20,44 @@ function finalizarCompra(){
                         <button id="realizarPago" class="btn">Realizar pago</button>
                         <button id="seguirComprando" class="btn">Seguir comprando</button>
                         </div>`)
-    for (let i = 0; i < carrito.length; i++) {
-        $("#modalFinalizarCompra").prepend(`
-            <div class="prodFinalizarCompra">
-                <img src="${carrito[i].imagen}" alt="producto">
-                <p>${carrito[i].cantidad}<span>x</span>${carrito[i].nombre}</p>
-            </div>`)
-    }
-   
-    $("#realizarPago").click(()=>{
-        let email = document.getElementById("email").value
-        let direccion = document.getElementById("direccion").value
-        $("#carrito").empty();
-        window.scrollTo( {
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-        } );
+        for (let i = 0; i < carrito.length; i++) {
+            $("#modalFinalizarCompra").prepend(`
+                <div class="prodFinalizarCompra">
+                    <img src="${carrito[i].imagen}" alt="producto">
+                    <p>${carrito[i].cantidad}<span>x</span>${carrito[i].nombre}</p>
+                </div>`)
+        }}else{
+            $(".mainTienda").prepend(`<div class="carritoVacio">
+                                        <p>El carrito esta vacio,</p>
+                                        <p>por favor agregue un producto</p>
+                                        <button id="aceptar" class="btn">Aceptar</button>
+                                    </div>`)
+        }
+        $("#aceptar").click(()=>{$(".carritoVacio").remove()})
+        $("#realizarPago").click(()=>{
+            let email = document.getElementById("email").value
+            let direccion = document.getElementById("direccion").value
+            $("#carrito").empty();
+            window.scrollTo( {
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            } );
 
-        $("#carrito").append(`
-                        <div class="compraTerminada">
-                        <h1>gracias por su compra</h1>
-                        <p>Su compra sera en enviada a </p>
-                        <span>${direccion}</span>
-                        <p>La factura fue enviada a </p>
-                        <span>${email}</span>
-                        <button id="volverAComprar" class="btn">Seguir comprando</button>
-                        </div>`)
-                        $("#volverAComprar").click(()=>{
-                                                        localStorage.removeItem("carrito");
-                                                        carrito = [];
-                                                        location.reload()})
-    })
+            $("#carrito").append(`
+                            <div class="compraTerminada">
+                            <h1>¡gracias por su compra!</h1>
+                            <p>Su compra sera en enviada a </p>
+                            <span>${direccion}</span>
+                            <p>La factura fue enviada a </p>
+                            <span>${email}</span>
+                            <button id="volverAComprar" class="btn">Seguir comprando</button>
+                            </div>`)
+                            $("#volverAComprar").click(()=>{
+                                                            localStorage.removeItem("carrito");
+                                                            carrito = [];
+                                                            location.reload()})
+        })
 
     $("#seguirComprando").click(()=>location.reload())
 }
