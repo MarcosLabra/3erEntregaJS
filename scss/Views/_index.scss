@@ -7,8 +7,8 @@
     z-index: 3;
     position: fixed;
     display: flex;
-    width: 30vw;
-    height: 20vh;
+    width: 320px;
+    height: 200px;
     top: 20vh;
     flex-direction: column;
     justify-content: center;
@@ -20,9 +20,12 @@
     border-radius: 15px;
     font-family: $montserrat;
     font-size: 3rem;
+    -webkit-box-shadow: 14px 0px 19px -12px rgb(0, 0, 0);
+    -moz-box-shadow: 14px 0px 19px -12px rgb(0, 0, 0);
+    box-shadow: 14px 0px 19px -12px rgb(0, 0, 0);
     button{
         font-family: $montserrat;
-        margin-top: 3rem;
+        margin-top: 3.5rem;
         font-size: 1rem;
         padding: 1rem;
     }

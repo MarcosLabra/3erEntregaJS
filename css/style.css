@@ -124,7 +124,8 @@
   background-color: #6c6b4c; }
   .btn:hover {
     transform: translateY(-1px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #a3a261; }
   .btn:active {
     transform: translateY(1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
@@ -234,6 +235,14 @@ main #sidebar {
     border-radius: 10px; }
     main #sidebar ul li img {
       height: 7vh; }
+    main #sidebar ul li:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      color: white;
+      border-bottom: 1px solid white; }
+    main #sidebar ul li:active {
+      transform: translateY(1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 
 main #sidebar.activeCategoria {
   left: 0; }
@@ -347,8 +356,8 @@ footer {
     z-index: 3;
     position: fixed;
     display: flex;
-    width: 30vw;
-    height: 20vh;
+    width: 320px;
+    height: 200px;
     top: 20vh;
     flex-direction: column;
     justify-content: center;
@@ -359,10 +368,13 @@ footer {
     color: #FFE7C3;
     border-radius: 15px;
     font-family: "Montserrat", sans-serif;
-    font-size: 3rem; }
+    font-size: 3rem;
+    -webkit-box-shadow: 14px 0px 19px -12px black;
+    -moz-box-shadow: 14px 0px 19px -12px black;
+    box-shadow: 14px 0px 19px -12px black; }
     .mainTienda .carritoVacio button {
       font-family: "Montserrat", sans-serif;
-      margin-top: 3rem;
+      margin-top: 3.5rem;
       font-size: 1rem;
       padding: 1rem; }
   .mainTienda .tienda {
