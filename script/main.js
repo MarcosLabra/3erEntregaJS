@@ -39,6 +39,12 @@ $(".btnCarrito").click(() => {
   $("#carrito").toggle("smooth");
 })
 // ----------------------MAIN----------------------------->
+$(window).ready(function() {
+ for (let index = 0; index < 2000; index++) {
+ }
+  $(".loading").fadeOut("slow");
+});
+
 $.ajax({
   method:"GET",
   url: "../JSON/general.json",
