@@ -1,9 +1,9 @@
-function realizarPago(){
-    let email = document.getElementById("email").value
-    let direccion = document.getElementById("direccion").value
-    $("#carrito").empty();
+function realizarPago() {
+  let email = document.getElementById("email").value;
+  let direccion = document.getElementById("direccion").value;
+  $("#carrito").empty();
 
-    $("#carrito").append(`
+  $("#carrito").append(`
                     <div class="compraTerminada">
                     <h1>¡gracias por su compra!</h1>
                     <p>Su compra sera en enviada a </p>
@@ -11,18 +11,18 @@ function realizarPago(){
                     <p>La factura fue enviada a </p>
                     <span>${email}</span>
                     <button id="volverAComprar" class="btn">Seguir comprando</button>
-                    </div>`)
-                    $("#volverAComprar").click(()=>{
-                                                    localStorage.removeItem("carrito");
-                                                    carrito = [];
-                                                    location.reload()})
+                    </div>`);
+  $("#volverAComprar").click(() => {
+    localStorage.removeItem("carrito");
+    carrito = [];
+    location.reload();
+  });
 }
 
-function finalizarCompra(){
-
-    if(localStorage.getItem("carrito")){
-        $("#carrito").empty();
-        $("#carrito").append(`
+function finalizarCompra() {
+  if (localStorage.getItem("carrito")) {
+    $("#carrito").empty();
+    $("#carrito").append(`
                         <div id="modalFinalizarCompra" >
                         <div class="formulario">
                             <div>
@@ -39,26 +39,27 @@ function finalizarCompra(){
                         <hr width="100%" color="#FFE7C3"\>
                         <button id="realizarPago" class="btn" onclick="realizarPago()">Realizar pago</button>
                         <button id="seguirComprando" class="btn" onclick="seguirComprando()">Seguir comprando</button>
-                        </div>`)
-        $("#seguirComprando").click(()=>location.reload())
-        
-        for (let i = 0; i < carrito.length; i++) {
-            $("#modalFinalizarCompra").prepend(`
+                        </div>`);
+    $("#seguirComprando").click(() => location.reload());
+
+    for (let i = 0; i < carrito.length; i++) {
+      $("#modalFinalizarCompra").prepend(`
                 <div class="prodFinalizarCompra">
                     <img src="${carrito[i].imagen}" alt="producto">
                     <p>${carrito[i].cantidad}<span>x</span>${carrito[i].nombre}</p>
-                </div>`)
-        }}else{
-            $(".mainTienda").prepend(`<div class="carritoVacio">
+                </div>`);
+    }
+  } else {
+    $(".mainTienda").prepend(`<div class="carritoVacio">
                                         <p>El carrito esta vacio,</p>
                                         <p>por favor agregue un producto</p>
                                         <button id="aceptar" class="btn">Aceptar</button>
-                                    </div>`)
-        }
-        $("#aceptar").click(()=>{$(".carritoVacio").remove()})
+                                    </div>`);
+  }
+  $("#aceptar").click(() => {
+    $(".carritoVacio").remove();
+  });
 }
 //--------------------MAIN
 
-$("#finalizarCompra").click(()=>finalizarCompra())
-
-
+$("#finalizarCompra").click(() => finalizarCompra());
