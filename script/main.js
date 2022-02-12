@@ -3,19 +3,22 @@
 function renderCategorias(array) {
   array.forEach((producto, indice) => {
     if (producto.material === "Acero") {
-      $("#contenedorProductos").append(`<div class="card">
+      $("#contenedorProductos").append(`
+            <div class="card">
             <img src="${producto.imagen}" alt="producto">
             <h3>${producto.nombre}</h3>
             <p>$${producto.precio}</p>
-            <button class= "btn" onClick="agregarAlCarrito(${indice})">Comprar</button>
+            <button id="${producto.id}" class= "btn">Comprar</button>
             </div>`);
+      $(`#${producto.id}`).click(() => agregarAlCarrito(producto));
     } else {
       $("#contenedorProductos").append(`<div class="card">
             <img src="${producto.imagen}" alt="producto">
             <h3 class="titanio">${producto.nombre}</h3>
             <p>$${producto.precio}</p>
-            <button class= "btn" onClick="agregarAlCarrito(${indice})">Comprar</button>
+            <button id="${producto.id}" class= "btn">Comprar</button>
             </div>`);
+      $(`#${producto.id}`).click(() => agregarAlCarrito(producto));
     }
   });
 }

@@ -1,16 +1,12 @@
 //---------------------FUNCIONES-------------------------------------------->
-function agregarAlCarrito(indiceDelArrayProducto) {
-  const indiceEncontradoCarrito = carrito.findIndex((elemento) => {
-    return elemento.id === tienda[indiceDelArrayProducto].id;
-  });
-  if (indiceEncontradoCarrito === -1) {
-    const productoAgregar = tienda[indiceDelArrayProducto];
-    productoAgregar.cantidad = 1;
-    carrito.push(productoAgregar);
+function agregarAlCarrito(producto) {
+  if (!carrito.includes(producto)) {
+    producto.cantidad = 1;
+    carrito.push(producto);
     actualizarStorage(carrito);
     renderCarrito();
   } else {
-    carrito[indiceEncontradoCarrito].cantidad += 1;
+    carrito[carrito.findIndex((x) => x.id === producto.id)].cantidad++;
     actualizarStorage(carrito);
     renderCarrito();
   }
@@ -18,6 +14,13 @@ function agregarAlCarrito(indiceDelArrayProducto) {
 
 function actualizarStorage(carrito) {
   localStorage.setItem("carrito", JSON.stringify(carrito));
+}
+
+function removeProduct(indice) {
+  carrito.splice(indice, 1);
+  actualizarStorage(carrito);
+  $("#contenedorCarrito").empty();
+  renderCarrito();
 }
 
 function renderCarrito() {
@@ -30,7 +33,9 @@ function renderCarrito() {
                                             <div class="itemDescription">
                                                 <h3>${carrito.nombre}</h3>
                                                 <div>
-                                                    <p>x${carrito.cantidad}</p>
+                                                <p><i onclick="restar(${indice})" class="fas fa-minus-circle"></i>${
+      carrito.cantidad
+    }<i onclick="sumar(${indice})" class="fas fa-plus-circle"></i></p>
                                                     <p>$${carrito.precio}</p>
                                                     <h4>$${
                                                       carrito.precio *
@@ -48,10 +53,12 @@ function renderCarrito() {
   $("#valorTotal").html(`Total: $ ${precioTotal}`);
   $("#artCart").html(carrito.length);
 }
-function removeProduct(indice) {
-  carrito.splice(indice, 1);
-  actualizarStorage(carrito);
-  $("#contenedorCarrito").empty();
+function restar(indice) {
+  carrito[indice].cantidad--;
+  renderCarrito();
+}
+function sumar(indice) {
+  carrito[indice].cantidad++;
   renderCarrito();
 }
 

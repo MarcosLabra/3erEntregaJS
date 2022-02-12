@@ -3,7 +3,6 @@
     "nombre": "Nosering",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Nostril/Nosering.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "nostril"
 },
@@ -12,7 +11,6 @@
     "nombre": "Nostril Bolita Dorado",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Bolita Dorado.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -21,7 +19,6 @@
     "nombre": "Nostril Strass Blanco",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Strass Blanco.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -30,7 +27,6 @@
     "nombre": "Nostril Micro Flor",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Micro Flor.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -39,7 +35,6 @@
     "nombre": "Nostril Strass Negro",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Strass Negro.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -48,7 +43,6 @@
     "nombre": "Nostril Strass Tornasolado",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Strass Tornasolado.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -57,7 +51,6 @@
     "nombre": "Nostril Trinity Cristal",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Trinity Cristal.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -66,7 +59,6 @@
     "nombre": "Nostril Trinity Opal",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Trinity Opal.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -75,7 +67,6 @@
     "nombre": "Nostril Bolita",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Bolita.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -84,7 +75,6 @@
     "nombre": "Nostril Strass Turquesa",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Strass Turquesa.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -93,7 +83,6 @@
     "nombre": "Nostril Opal 05",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Titanio Opal 05.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "nostril"
 },
@@ -102,7 +91,6 @@
     "nombre": "Nostril Opal 10",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Titanio Opal 10.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "nostril"
 },
@@ -111,7 +99,6 @@
     "nombre": "Nostril Opal 17",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Titanio Opal 17.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "nostril"
 },
@@ -120,7 +107,6 @@
     "nombre": "Nostril Opal 19",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Titanio Opal 19.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "nostril"
 },
@@ -129,7 +115,6 @@
     "nombre": "Nostril Opal 42",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Titanio Opal 042 (MA).jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "nostril"
 },
@@ -138,7 +123,6 @@
     "nombre": "Nostril Trinity",
     "precio": "600",
     "imagen": "./images/TiendaProductos/Nostril/Nostril Trinity.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nostril"
 },
@@ -147,7 +131,6 @@
     "nombre": "Argollita Sin Fin Cluster",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Argollitas/Argolla Sin Fin Cluster.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -156,7 +139,6 @@
     "nombre": "Argollita con Cristales",
     "precio": "650",
     "imagen": "./images/TiendaProductos/Argollitas/Argollita con Cristales.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -165,7 +147,6 @@
     "nombre": "Argollita con Resorte Dorada",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Argollitas/Argollita con Resorte Dorada.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -174,7 +155,6 @@
     "nombre": "Argollita con Resorte",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Argollitas/Argollita con Resorte.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -183,7 +163,6 @@
     "nombre": "Argollita Ovni",
     "precio": "600",
     "imagen": "./images/TiendaProductos/Argollitas/Argollita Ovni.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -192,7 +171,6 @@
     "nombre": "Argollitas Sin Fin",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Argollitas/Argollitas Sin Fin.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -201,7 +179,6 @@
     "nombre": "BCR grueso",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Argollitas/BCR grueso.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -210,7 +187,6 @@
     "nombre": "BCR Opal Stone Blue",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Argollitas/BCR Opal Stone Blue.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "argollitas"
 },
@@ -219,7 +195,6 @@
     "nombre": "BCR Opal Stone Titanio",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Argollitas/BCR Opal Stone Titanio.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "argollitas"
 },
@@ -228,7 +203,6 @@
     "nombre": "BCR Opalo blanco",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Argollitas/BCR Opalo blanco.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -237,7 +211,6 @@
     "nombre": "BCR Titanio Cristal",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Argollitas/BCR Titanio Cristal.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "argollitas"
 },
@@ -246,7 +219,6 @@
     "nombre": "Corazon Hércules",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Argollitas/Corazon Hércules.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -255,7 +227,6 @@
     "nombre": "Corazón Opalo Aguamarina",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Argollitas/Corazón Opalo Aguamarina.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -264,7 +235,6 @@
     "nombre": "Doble curva con bisagra dorado",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Argollitas/Doble curva con bisagra dorado.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -273,7 +243,6 @@
     "nombre": "Sin Fin 1.5",
     "precio": "600",
     "imagen": "./images/TiendaProductos/Argollitas/Sin Fin 1.5.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -282,7 +251,6 @@
     "nombre": "Sin Fin con Encastre",
     "precio": "600",
     "imagen": "./images/TiendaProductos/Argollitas/Sin Fin con Encastre.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "argollitas"
 },
@@ -291,7 +259,6 @@
     "nombre": "Dermal Top - Flor Violeta con Opalos",
     "precio": "400",
     "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Flor Violeta con Opalos.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -300,7 +267,6 @@
     "nombre": "Dermal Top - Opalo Azul",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Opalo Azul.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -309,7 +275,6 @@
     "nombre": "Dermal Top - Opalo Blanco",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Opalo Blanco.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -318,7 +283,6 @@
     "nombre": "Dermal Top - Opalo Lila",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Opalo Lila.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -327,7 +291,6 @@
     "nombre": "Dermal Top - Opalo Rosa",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Dermal/Dermal Top - Opalo Rosa.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -336,7 +299,6 @@
     "nombre": "Dermal Top Huellita Opalos",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Dermal/Dermal Top Huellita Opalos.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -345,7 +307,6 @@
     "nombre": "Dermal Top Luna",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Dermal/Dermal Top Luna.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -354,7 +315,6 @@
     "nombre": "Micro Florcitas",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Dermal/Micro Florcitas.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -363,7 +323,6 @@
     "nombre": "Microdermal - Cristal Blanco",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Dermal/Microdermal - Cristal Blanco.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -372,7 +331,6 @@
     "nombre": "Microdermal – Opal Stone Verde",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Dermal/Microdermal – Opal Stone Verde.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -381,7 +339,6 @@
     "nombre": "Microdermal - Rayo",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Dermal/Microdermal - Rayo.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -390,7 +347,6 @@
     "nombre": "Microdermal Agatha Stone",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Dermal/Microdermal Agatha Stone.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -399,7 +355,6 @@
     "nombre": "Microdermal Huella Azul",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Dermal/Microdermal Huella Azul.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -408,7 +363,6 @@
     "nombre": "Microdermal Huella Rosa",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Dermal/Microdermal Huella Rosa.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "dermal"
 },
@@ -417,7 +371,6 @@
     "nombre": "Industrial con 10 strass",
     "precio": "1100",
     "imagen": "./images/TiendaProductos/Industrial/Industrial con 10 strass.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -426,7 +379,6 @@
     "nombre": "Industrial con piedra turquesa",
     "precio": "850",
     "imagen": "./images/TiendaProductos/Industrial/Industrial con piedra turquesa.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -435,7 +387,6 @@
     "nombre": "Industrial con Strass",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Industrial/Industrial con Strass.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -444,7 +395,6 @@
     "nombre": "Industrial Flecha",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Industrial/Industrial Flecha.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -453,7 +403,6 @@
     "nombre": "Industrial Flor Op. Aguamarina",
     "precio": "950",
     "imagen": "./images/TiendaProductos/Industrial/Industrial Flor Opalo Aguamarina.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -462,7 +411,6 @@
     "nombre": "Industrial Gold Arrow",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Industrial/Industrial Gold Arrow.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -471,7 +419,6 @@
     "nombre": "Industrial Llave",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Industrial/Industrial Llave.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -480,7 +427,6 @@
     "nombre": "Industrial Opal White Stone",
     "precio": "900",
     "imagen": "./images/TiendaProductos/Industrial/Industrial Opal White Stone.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -489,7 +435,6 @@
     "nombre": "Industrial Opalo Nieve",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Industrial/Industrial Opalo Nieve.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -498,7 +443,6 @@
     "nombre": "Industrial Tridente",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Industrial/Industrial Tridente.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "industrial"
 },
@@ -507,7 +451,6 @@
     "nombre": "Barra Titanio 1.6 12mm",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Nipple/Barra Titanio 1.6 12mm.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "nipple"
 },
@@ -516,7 +459,6 @@
     "nombre": "Nipple Alien",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Nipple/Nipple Alien.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -525,7 +467,6 @@
     "nombre": "Colgante con Strass",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Nipple/Nipple Colgante con Strass Engarzado.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -534,7 +475,6 @@
     "nombre": "Nipple Corazón",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Nipple/Nipple Corazón.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -543,7 +483,6 @@
     "nombre": "Nipple Cristal",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Nipple/Nipple Cristal.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -552,7 +491,6 @@
     "nombre": "Nipple Flower - Opal Blue",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Nipple/Nipple Flower - Opal Blue.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -561,7 +499,6 @@
     "nombre": "Nipple Flower - Opal White",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Nipple/Nipple Flower - Opal White.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -570,7 +507,6 @@
     "nombre": "Nipple Skeleton",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Nipple/Nipple Skeleton.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -579,7 +515,6 @@
     "nombre": "Nipple Strass Engarzado",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Nipple/Nipple Strass Engarzado.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -588,7 +523,6 @@
     "nombre": "Nipples Alien Glow in the dark",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Nipple/Nipples Alien Glow in the dark.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "nipple"
 },
@@ -597,7 +531,6 @@
     "nombre": "Navel - Brillante Azul",
     "precio": "950",
     "imagen": "./images/TiendaProductos/Ombligo/Navel - Brillante Azul.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -606,7 +539,6 @@
     "nombre": "Navel - Brillante con Reflejos",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Ombligo/Navel - Brillante con Reflejos.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -615,7 +547,6 @@
     "nombre": "Navel - Flor con Cristales",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Ombligo/Navel - Flor con Cristales.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -624,7 +555,6 @@
     "nombre": "Navel - Gold Brillante",
     "precio": "900",
     "imagen": "./images/TiendaProductos/Ombligo/Navel - Gold Brillante.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -633,7 +563,6 @@
     "nombre": "Navel con Cristal Blanco",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Ombligo/Navel con Cristal Blanco.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -642,7 +571,6 @@
     "nombre": "Navel con Cristal Rosa",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Ombligo/Navel con Cristal Rosa.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -651,7 +579,6 @@
     "nombre": "Navel con Cristal Violeta",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Ombligo/Navel con Cristal Violeta.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -660,7 +587,6 @@
     "nombre": "Navel Opal Blanco",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Ombligo/Navel Opal Blanco.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -669,7 +595,6 @@
     "nombre": "Navel Opal Esmeralda",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Ombligo/Navel Opal Esmeralda.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -678,7 +603,6 @@
     "nombre": "Navel Sin Fin",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Ombligo/Navel Sin Fin.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "ombligo"
 },
@@ -687,7 +611,6 @@
     "nombre": "Flor Cristales Blancos",
     "precio": "950",
     "imagen": "./images/TiendaProductos/Labret/Flor Cristales Blancos - Titanio.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "labret"
 },
@@ -696,7 +619,6 @@
     "nombre": "Flor Opalo Azules",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Labret/Flor Opalo Azules.jpg",
-    "cantidad": "0",
     "material":"Titanio",
     "categoria": "labret"
 },
@@ -705,7 +627,6 @@
     "nombre": "Helix Engarzado Corazoncito",
     "precio": "1000",
     "imagen": "./images/TiendaProductos/Labret/Helix Engarzado Corazoncito.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "labret"
 },
@@ -714,7 +635,6 @@
     "nombre": "Helix Mosca",
     "precio": "900",
     "imagen": "./images/TiendaProductos/Labret/Helix Mosca.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "labret"
 },
@@ -723,7 +643,6 @@
     "nombre": "Labret Huellita Cristales",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Labret/Labret Huellita Cristales.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "labret"
 },
@@ -732,7 +651,6 @@
     "nombre": "Labret Luna",
     "precio": "1500",
     "imagen": "./images/TiendaProductos/Labret/Labret Luna.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "labret"
 },
@@ -741,7 +659,6 @@
     "nombre": "Labret Piedra Lunar",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Labret/Labret Piedra Lunar.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "labret"
 },
@@ -750,7 +667,6 @@
     "nombre": "Labret",
     "precio": "500",
     "imagen": "./images/TiendaProductos/Labret/Labret.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "labret"
 },
@@ -759,7 +675,6 @@
     "nombre": "Punisher Ring Negro",
     "precio": "750",
     "imagen": "./images/TiendaProductos/Labret/Punisher Ring Negro.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "labret"
 },
@@ -768,7 +683,6 @@
     "nombre": "Trepador Opalos",
     "precio": "800",
     "imagen": "./images/TiendaProductos/Labret/Trepador Opalos.jpg",
-    "cantidad": "0",
     "material":"Acero",
     "categoria": "labret"
 }
