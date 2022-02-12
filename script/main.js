@@ -1,7 +1,7 @@
 // ------------------Funciones--------------------->
 
 function renderCategorias(array) {
-  array.forEach((producto, indice) => {
+  array.forEach((producto) => {
     if (producto.material === "Acero") {
       $("#contenedorProductos").append(`
             <div class="card">
@@ -76,5 +76,4 @@ $.ajax({
 });
 
 //hacer destructuring de los for each.
-//agregar la posibilidad de manipular la cantidad de los productos desde el carrito
 //agregar y sacar productos del carrito sin tener que volver a renderizarlo
