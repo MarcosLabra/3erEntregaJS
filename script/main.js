@@ -2,23 +2,24 @@
 
 function renderCategorias(array) {
   array.forEach((producto) => {
+    const {imagen, nombre, precio, id} = producto;
     if (producto.material === "Acero") {
       $("#contenedorProductos").append(`
             <div class="card">
-            <img src="${producto.imagen}" alt="producto">
-            <h3>${producto.nombre}</h3>
-            <p>$${producto.precio}</p>
+            <img src="${imagen}" alt="producto">
+            <h3>${nombre}</h3>
+            <p>$${precio}</p>
             <button id="${producto.id}" class= "btn">Comprar</button>
             </div>`);
-      $(`#${producto.id}`).click(() => agregarAlCarrito(producto));
+      $(`#${id}`).click(() => agregarAlCarrito(producto));
     } else {
       $("#contenedorProductos").append(`<div class="card">
             <img src="${producto.imagen}" alt="producto">
-            <h3 class="titanio">${producto.nombre}</h3>
-            <p>$${producto.precio}</p>
+            <h3 class="titanio">${nombre}</h3>
+            <p>$${precio}</p>
             <button id="${producto.id}" class= "btn">Comprar</button>
             </div>`);
-      $(`#${producto.id}`).click(() => agregarAlCarrito(producto));
+      $(`#${id}`).click(() => agregarAlCarrito(producto));
     }
   });
 }
@@ -75,5 +76,3 @@ $.ajax({
   },
 });
 
-//hacer destructuring de los for each.
-//agregar y sacar productos del carrito sin tener que volver a renderizarlo

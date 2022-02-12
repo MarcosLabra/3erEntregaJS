@@ -1,5 +1,6 @@
 //---------------------FUNCIONES-------------------------------------------->
 function agregarAlCarrito(producto) {
+  const {id} = producto;
   if (!carrito.includes(producto)) {
     producto.cantidad = 1;
     carrito.push(producto);
@@ -7,8 +8,8 @@ function agregarAlCarrito(producto) {
     renderCarrito();
   } else {
     stock = 10;
-    if(carrito[carrito.findIndex((x) => x.id === producto.id)].cantidad < stock){
-    carrito[carrito.findIndex((x) => x.id === producto.id)].cantidad++;
+    if(carrito[carrito.findIndex((x) => x.id === id)].cantidad < stock){
+    carrito[carrito.findIndex((x) => x.id === id)].cantidad++;
     actualizarStorage(carrito);
     renderCarrito();
     }else{
@@ -31,16 +32,17 @@ function actualizarStorage(carrito) {
 function renderCarrito() {
   $("#contenedorCarrito").empty();
   carrito.forEach((producto, indice) => {
+    const {imagen, nombre, precio, cantidad} = producto;
     $("#contenedorCarrito").append(`<div class="cartItem">
-                                        <img src="${producto.imagen}" alt="${producto.nombre}">
+                                        <img src="${imagen}" alt="${nombre}">
                                         <div class="itemDescription">
-                                          <h3>${producto.nombre}</h3>
+                                          <h3>${nombre}</h3>
                                         <div>
                                         <p><i onclick="restar(${indice})" class="fas fa-minus-circle"></i>
-                                            ${producto.cantidad}
+                                            ${cantidad}
                                         <i onclick="sumar(${indice})" class="fas fa-plus-circle"></i></p>
-                                        <p>$${producto.precio}</p>
-                                        <h4>$${producto.precio * producto.cantidad}</h4>
+                                        <p>$${precio}</p>
+                                        <h4>$${precio * cantidad}</h4>
                                         </div>
                                           <button class="btn" onclick="removeProduct(${indice})">
                                           <i class="fas fa-trash-alt"></i>
