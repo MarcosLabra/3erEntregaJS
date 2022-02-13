@@ -2,7 +2,7 @@
 
 function renderCategorias(array) {
   array.forEach((producto) => {
-    const {imagen, nombre, precio, id} = producto;
+    const { imagen, nombre, precio, id } = producto;
     if (producto.material === "Acero") {
       $("#contenedorProductos").append(`
             <div class="card">
@@ -75,4 +75,3 @@ $.ajax({
     }
   },
 });
-

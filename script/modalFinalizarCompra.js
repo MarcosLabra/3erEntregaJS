@@ -1,6 +1,6 @@
 function realizarPago() {
-  let email = document.getElementById("email").value;
-  let direccion = document.getElementById("direccion").value;
+  let email = $("#email").val();
+  let direccion = $("#direccion").val();
   $("#carrito").empty();
 
   $("#carrito").append(`

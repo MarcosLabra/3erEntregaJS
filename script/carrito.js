@@ -34,27 +34,25 @@ function renderCarrito() {
   carrito.forEach((producto, indice) => {
     const {imagen, nombre, precio, cantidad} = producto;
     $("#contenedorCarrito").append(`<div class="cartItem">
-                                        <img src="${imagen}" alt="${nombre}">
-                                        <div class="itemDescription">
-                                          <h3>${nombre}</h3>
-                                        <div>
-                                        <p><i onclick="restar(${indice})" class="fas fa-minus-circle"></i>
-                                            ${cantidad}
-                                        <i onclick="sumar(${indice})" class="fas fa-plus-circle"></i></p>
-                                        <p>$${precio}</p>
-                                        <h4>$${precio * cantidad}</h4>
-                                        </div>
-                                          <button class="btn" data-id="borrar">
-                                          <i class="fas fa-trash-alt"></i>
-                                          </button>
-                                        </div>
-                                      </div>`);
-                                      $(`[data-id="borrar"]`).click(() => removeProduct(indice))
+                                      <img src="${imagen}" alt="${nombre}">
+                                      <div class="itemDescription">
+                                        <h3>${nombre}</h3>
+                                      <div>
+                                      <p><i onclick="restar(${indice})" class="fas fa-minus-circle"></i>
+                                          ${cantidad}
+                                      <i onclick="sumar(${indice})" class="fas fa-plus-circle"></i></p>
+                                      <p>$${precio}</p>
+                                      <h4>$${precio * cantidad}</h4>
+                                      </div>
+                                        <button class="btn" data-id="borrar">
+                                        <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                      </div>
+                                    </div>`);
+    $(`[data-id="borrar"]`).click(() => removeProduct(indice))
   });
   precioTotal = carrito.reduce(
-    (precioTotal, carrito) => precioTotal + carrito.precio * carrito.cantidad,
-    0
-  );
+    (precioTotal, carrito) => precioTotal + carrito.precio * carrito.cantidad,0);
   $("#valorTotal").html(`Total: $ ${precioTotal}`);
   $("#artCart").html(carrito.length);
 
