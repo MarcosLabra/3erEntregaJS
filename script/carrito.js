@@ -44,11 +44,12 @@ function renderCarrito() {
                                         <p>$${precio}</p>
                                         <h4>$${precio * cantidad}</h4>
                                         </div>
-                                          <button class="btn" onclick="removeProduct(${indice})">
+                                          <button class="btn" data-id="borrar">
                                           <i class="fas fa-trash-alt"></i>
                                           </button>
                                         </div>
                                       </div>`);
+                                      $(`[data-id="borrar"]`).click(() => removeProduct(indice))
   });
   precioTotal = carrito.reduce(
     (precioTotal, carrito) => precioTotal + carrito.precio * carrito.cantidad,
