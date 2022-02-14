@@ -36,7 +36,7 @@
   min-height: 100vh;
   align-items: flex-start;
   .tienda {
-    padding: 12vh 3rem;
+    padding: 12vh 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center !important;
@@ -76,6 +76,7 @@
 @media (min-width: 768px) {
   .mainTienda {
     .tienda {
+      padding: 12vh 3rem;
       justify-content: flex-start;
     }
     #carrito.carrito {
