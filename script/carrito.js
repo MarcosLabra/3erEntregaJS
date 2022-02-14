@@ -1,6 +1,6 @@
 //---------------------FUNCIONES-------------------------------------------->
 function agregarAlCarrito(producto) {
-  const {id} = producto;
+  const { id } = producto;
   if (!carrito.includes(producto)) {
     producto.cantidad = 1;
     carrito.push(producto);
@@ -8,11 +8,11 @@ function agregarAlCarrito(producto) {
     renderCarrito();
   } else {
     stock = 10;
-    if(carrito[carrito.findIndex((x) => x.id === id)].cantidad < stock){
-    carrito[carrito.findIndex((x) => x.id === id)].cantidad++;
-    actualizarStorage(carrito);
-    renderCarrito();
-    }else{
+    if (carrito[carrito.findIndex((x) => x.id === id)].cantidad < stock) {
+      carrito[carrito.findIndex((x) => x.id === id)].cantidad++;
+      actualizarStorage(carrito);
+      renderCarrito();
+    } else {
       $(".mainTienda").prepend(`<div class="carritoVacio">
                                 <p>Solo hay ${stock} unidades</p>
                                 <button id="aceptar" class="btn">Aceptar</button>
@@ -28,11 +28,10 @@ function actualizarStorage(carrito) {
   localStorage.setItem("carrito", JSON.stringify(carrito));
 }
 
-
 function renderCarrito() {
   $("#contenedorCarrito").empty();
   carrito.forEach((producto, indice) => {
-    const {imagen, nombre, precio, cantidad} = producto;
+    const { imagen, nombre, precio, cantidad } = producto;
     $("#contenedorCarrito").append(`<div class="cartItem">
                                       <img src="${imagen}" alt="${nombre}">
                                       <div class="itemDescription">
@@ -49,26 +48,27 @@ function renderCarrito() {
                                         </button>
                                       </div>
                                     </div>`);
-    $(`[data-id="borrar"]`).click(() => removeProduct(indice))
+    $(`[data-id="borrar"]`).click(() => removeProduct(indice));
   });
   precioTotal = carrito.reduce(
-    (precioTotal, carrito) => precioTotal + carrito.precio * carrito.cantidad,0);
+    (precioTotal, carrito) => precioTotal + carrito.precio * carrito.cantidad,
+    0
+  );
   $("#valorTotal").html(`Total: $ ${precioTotal}`);
   $("#artCart").html(carrito.length);
-
 }
 function restar(indice) {
-  if(carrito[indice].cantidad < 2){
-    removeProduct(indice)
-    }else{
-      carrito[indice].cantidad--;
-    }
-    renderCarrito();
+  if (carrito[indice].cantidad < 2) {
+    removeProduct(indice);
+  } else {
+    carrito[indice].cantidad--;
+  }
+  renderCarrito();
 }
 
 function sumar(indice) {
   stock = 10;
-  if(carrito[indice].cantidad >= stock){
+  if (carrito[indice].cantidad >= stock) {
     $(".mainTienda").prepend(`<div class="carritoVacio">
                                 <p>Solo hay ${stock} unidades</p>
                                 <button id="aceptar" class="btn">Aceptar</button>
@@ -76,10 +76,10 @@ function sumar(indice) {
     $("#aceptar").click(() => {
       $(".carritoVacio").remove();
     });
-    }else{
-      carrito[indice].cantidad++;
-    }
-    renderCarrito();
+  } else {
+    carrito[indice].cantidad++;
+  }
+  renderCarrito();
 }
 
 function removeProduct(indice) {

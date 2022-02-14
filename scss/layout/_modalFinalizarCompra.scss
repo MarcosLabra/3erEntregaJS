@@ -1,78 +1,75 @@
-#modalFinalizarCompra{
+#modalFinalizarCompra {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding: 3rem;
+  margin-top: 1rem;
+  color: $cremita;
+  background-color: $doradito;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  align-items: flex-start;
+  font-family: $montserrat;
+  div.prodFinalizarCompra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+      width: 80px;
+      height: auto;
+    }
+    p {
+      font-size: 1.5rem;
+      margin: 1rem;
+    }
+  }
+  .formulario {
+    width: 100%;
+    background-color: $verdeOscuro;
+    border-radius: 15px;
+    label {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+  }
+  div {
     display: flex;
     flex-direction: column;
-    z-index: 1;
-    padding: 3rem;
-    margin-top: 1rem;
-    color: $cremita;
-    background-color: $doradito;
-    width: 400px;
-    border-radius: 15px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    align-items: flex-start;
-    font-family: $montserrat;
-    div.prodFinalizarCompra{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        img{
-            width: 80px;
-            height: auto;
-        }
-        p{
-            font-size: 1.5rem;
-            margin: 1rem;
-        }
-    }
-    .formulario{
-        width: 100%;
-        background-color: $verdeOscuro;
-        border-radius: 15px;
-        label{
-            text-align: center;
-            margin-bottom: .5rem;
-        }
-    }
-    div{
-        display: flex;
-        flex-direction: column;
-        font-size: 2.5rem;
-        padding-bottom: 1rem;
-        margin: 1rem;
-
-    }
-    h3{
-        font-size: 2rem;
-        margin: 1rem auto;
-    }
-    .btn{
-        margin-top: 2rem !important;
-    }
-
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+  }
+  h3 {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+  .btn {
+    margin-top: 2rem !important;
+  }
 }
 .compraTerminada {
-    border-radius: 15px;
-    background-color: $verdeOscuro;
-    margin-top: 1rem;
+  border-radius: 15px;
+  background-color: $verdeOscuro;
+  margin-top: 1rem;
+  color: $cremita;
+  font-family: $montserrat;
+  padding: 1rem;
+  text-align: center;
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .btn {
     color: $cremita;
-    font-family: $montserrat;
-    padding: 1rem;
-    text-align: center;
-    h1{
-        font-size: 3rem;
-        margin-bottom: 2rem;
-    }
-    p{
-        font-size: 1.5rem;
-        margin: 1rem;
-       
-    }
-    span{
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-    .btn{
-        color: $cremita;
-        background-color: $doradito;
-    }
+    background-color: $doradito;
+  }
 }
