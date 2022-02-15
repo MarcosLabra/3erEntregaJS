@@ -40,10 +40,11 @@ $(".btnCarrito").click(() => {
 let tienda = [];
 //-------------------pantalla de carga (hago un loop para q se llegue a ver)
 $(window).ready(function () {
-  for (let index = 0; index < 2000; index++) {}
+  for (let index = 0; index < 4000; index++) {}
   $(".loading").fadeOut("slow");
 });
 //------------------llamada ajax
+
 $.ajax({
   method: "GET",
   url: "../JSON/general.json",
