@@ -1,6 +1,10 @@
 // ------------------Funciones--------------------->
 
 function renderCategorias(array) {
+  if($("#sidebar").hasClass("activeCategoria")){
+    $("#sidebar").toggleClass("activeCategoria");
+  }
+  
   array.forEach((producto) => {
     const { imagen, nombre, precio, id } = producto;
     if (producto.material === "Acero") {
