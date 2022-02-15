@@ -1,12 +1,15 @@
 //---------------------FUNCIONES-------------------------------------------->
+
 function agregarAlCarrito(producto) {
   const { id } = producto;
+  //-----------------comprueba si ya esta en el carrito
   if (!carrito.includes(producto)) {
     producto.cantidad = 1;
     carrito.push(producto);
     actualizarStorage(carrito);
     renderCarrito();
   } else {
+    //--------------comprueba que haya stock
     stock = 10;
     if (carrito[carrito.findIndex((x) => x.id === id)].cantidad < stock) {
       carrito[carrito.findIndex((x) => x.id === id)].cantidad++;
@@ -50,6 +53,7 @@ function renderCarrito() {
                                     </div>`);
     $(`[data-id="borrar"]`).click(() => removeProduct(indice));
   });
+  //---------------calcula precio total
   precioTotal = carrito.reduce(
     (precioTotal, carrito) => precioTotal + carrito.precio * carrito.cantidad,
     0
@@ -57,6 +61,7 @@ function renderCarrito() {
   $("#valorTotal").html(`Total: $ ${precioTotal}`);
   $("#artCart").html(carrito.length);
 }
+//---------------funciones para sumar o restar productos al item del carrito
 function restar(indice) {
   if (carrito[indice].cantidad < 2) {
     removeProduct(indice);
@@ -81,7 +86,7 @@ function sumar(indice) {
   }
   renderCarrito();
 }
-
+//-------------funcion para eliminar el item completo del carrito
 function removeProduct(indice) {
   carrito.splice(indice, 1);
   actualizarStorage(carrito);

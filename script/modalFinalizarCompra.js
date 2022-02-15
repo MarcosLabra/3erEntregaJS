@@ -1,24 +1,5 @@
-function realizarPago() {
-  let email = $("#email").val();
-  let direccion = $("#direccion").val();
-  $("#carrito").empty();
 
-  $("#carrito").append(`
-                    <div class="compraTerminada">
-                    <h1>¡gracias por su compra!</h1>
-                    <p>Su compra sera en enviada a </p>
-                    <span>${direccion}</span>
-                    <p>La factura fue enviada a </p>
-                    <span>${email}</span>
-                    <button id="volverAComprar" class="btn">Seguir comprando</button>
-                    </div>`);
-  $("#volverAComprar").click(() => {
-    localStorage.removeItem("carrito");
-    carrito = [];
-    location.reload();
-  });
-}
-
+//-------------------------------Renderizo el formulario para finalizar la compra
 function finalizarCompra() {
   if (localStorage.getItem("carrito")) {
     $("#carrito").empty();
@@ -58,6 +39,27 @@ function finalizarCompra() {
   }
   $("#aceptar").click(() => {
     $(".carritoVacio").remove();
+  });
+}
+//-----------------------Devuelvo un mensaje con los valores tomados del form de  la funcion anterior
+function realizarPago() {
+  let email = $("#email").val();
+  let direccion = $("#direccion").val();
+  $("#carrito").empty();
+
+  $("#carrito").append(`
+                    <div class="compraTerminada">
+                    <h1>¡gracias por su compra!</h1>
+                    <p>Su compra sera en enviada a </p>
+                    <span>${direccion}</span>
+                    <p>La factura fue enviada a </p>
+                    <span>${email}</span>
+                    <button id="volverAComprar" class="btn">Seguir comprando</button>
+                    </div>`);
+  $("#volverAComprar").click(() => {
+    localStorage.removeItem("carrito");
+    carrito = [];
+    location.reload();
   });
 }
 //--------------------MAIN
