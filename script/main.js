@@ -40,7 +40,6 @@ $(".btnCarrito").click(() => {
 let tienda = [];
 //-------------------pantalla de carga (hago un loop para q se llegue a ver)
 $(window).ready(function () {
-  for (let index = 0; index < 50000; index++) {}
   $(".loading").fadeOut("slow");
 });
 //------------------llamada ajax
