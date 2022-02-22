@@ -13,7 +13,7 @@ function renderCategorias(array) {
             <img src="${imagen}" alt="producto">
             <h3>${nombre}</h3>
             <p>$${precio}</p>
-            <button id="${producto.id}" class= "btn">Comprar</button>
+            <button id="${id}" class= "btn">Comprar</button>
             </div>`);
       $(`#${id}`).click(() => agregarAlCarrito(producto));
     } else {
@@ -21,7 +21,7 @@ function renderCategorias(array) {
             <img src="${producto.imagen}" alt="producto">
             <h3 class="titanio">${nombre}</h3>
             <p>$${precio}</p>
-            <button id="${producto.id}" class= "btn">Comprar</button>
+            <button id="${id}" class= "btn">Comprar</button>
             </div>`);
       $(`#${id}`).click(() => agregarAlCarrito(producto));
     }
