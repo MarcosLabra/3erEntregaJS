@@ -6,8 +6,8 @@ function renderCategorias(array) {
   }
   
   array.forEach((producto) => {
-    const { imagen, nombre, precio, id } = producto;
-    if (producto.material === "Acero") {
+    const { imagen, nombre, precio, id, material } = producto;
+    if (material === "Acero") {
       $("#contenedorProductos").append(`
             <div class="card">
             <img src="${imagen}" alt="producto">
@@ -18,7 +18,7 @@ function renderCategorias(array) {
       $(`#${id}`).click(() => agregarAlCarrito(producto));
     } else {
       $("#contenedorProductos").append(`<div class="card">
-            <img src="${producto.imagen}" alt="producto">
+            <img src="${imagen}" alt="producto">
             <h3 class="titanio">${nombre}</h3>
             <p>$${precio}</p>
             <button id="${id}" class= "btn">Comprar</button>
