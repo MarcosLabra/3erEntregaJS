@@ -1,5 +1,5 @@
 
-//-------------------------------Renderizo el formulario para finalizar la compra
+
 function finalizarCompra() {
   if (localStorage.getItem("carrito")) {
     $("#carrito").empty();
@@ -41,7 +41,7 @@ function finalizarCompra() {
     $(".carritoVacio").remove();
   });
 }
-//-----------------------Devuelvo un mensaje con los valores tomados del form de  la funcion anterior
+
 function realizarPago() {
   let email = $("#email").val();
   let direccion = $("#direccion").val();
@@ -62,6 +62,6 @@ function realizarPago() {
     location.reload();
   });
 }
-//--------------------MAIN
+
 
 $("#finalizarCompra").click(() => finalizarCompra());
